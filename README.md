@@ -37,21 +37,21 @@
 
 ＞ 網頁布局（路由交互）
 
-APP
-｜－頂部
-｜   ｜ 
-｜   ｜ －網頁名稱（點擊返回首頁）（to：@/views/Home.vue）
-｜   ｜ 
-｜   ｜ －操作列表
-｜          ｜
-｜          ｜－舞動藝文（to：@/views/ArtActivity.vue）
-｜          ｜
-｜          ｜－節慶活動（to：@/views/Festival.vue）
-｜          ｜
-｜          ｜－查找周圍活動（to：@/views/AroundActivity.vue）  
-｜   
-｜－routerView 區（以路由切換 "@/router/index.ts"）
-｜
-｜－底部
+    APP
+    ｜－頂部
+    ｜   ｜ 
+    ｜   ｜ －網頁名稱（點擊返回首頁）（to：@/views/Home.vue）
+    ｜   ｜ 
+    ｜   ｜ －操作列表
+    ｜          ｜
+    ｜          ｜－舞動藝文（to：@/views/ArtActivity.vue）
+    ｜          ｜
+    ｜          ｜－節慶活動（to：@/views/Festival.vue）
+    ｜          ｜
+    ｜          ｜－查找周圍活動（to：@/views/AroundActivity.vue）  
+    ｜   
+    ｜－routerView 區（以路由切換 "@/router/index.ts"）
     ｜
-    ｜－說明文字
+    ｜－底部
+        ｜
+        ｜－說明文字
