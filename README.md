@@ -1,8 +1,14 @@
 藝文活動查找平台，串接文化部提供免費API。
+
 使用 Vue3.js 搭建。
+
 使用Bootstrap 5、axios套件。
 
+---------------------------------------
+
 畫面有 5 個：首頁、藝文活動、節慶活動、查找周圍活動、活動詳情。
+
+---------------------------------------
 
 ＞ 資料夾內容：
 
@@ -13,6 +19,8 @@
 　　@/src/views：路由元件
 
 　　@/src/store：pinia管理資料（全API）
+
+---------------------------------------
 
 ＞ API：
 
@@ -34,6 +42,7 @@
     所有活動
     https://cloud.culture.tw/frontsite/opendata/activityOpenDataJsonAction.do?method=doFindActivitiesByCategory&category=all
 
+---------------------------------------
 
 ＞ 網頁布局（路由交互）
 
